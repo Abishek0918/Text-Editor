@@ -1,0 +1,67 @@
+.text-to-voice-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-left:30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .text-to-voice-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app.dark .text-to-voice-container {
+    background-color: #424242;
+    color: #f0f0f0;
+  }
+
+  .text-to-voice-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+  
+  .input-text {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    padding-left: 9px;
+    padding-right: 0px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .speak-button,
+  .stop-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .speak-button {
+    background-color: #161818;
+    color: white;
+  }
+  
+  .speak-button:disabled {
+    background-color: #ccc;
+  }
+  
+  .stop-button {
+    background-color: #e53935;
+    color: white;
+  }
+  

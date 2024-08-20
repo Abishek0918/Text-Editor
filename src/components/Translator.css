@@ -1,0 +1,130 @@
+.translator-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 50px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .translator-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app.dark .translator-container {
+    background-color: #424242;
+    color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .app.dark h1 {
+    color: #f0f0f0;
+  }
+  
+  .language-selectors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .language-selectors div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-selectors label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select {
+    padding: 8px 12px;
+    margin-right: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s;
+  }
+  
+  select:focus {
+    border-color: #6200ea;
+  }
+  
+  .app.dark select {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .input-text {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-text:focus {
+    outline: none;
+    border-color: #6200ea;
+    background-color: #fff;
+    box-shadow: inset 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app.dark .input-text {
+    background-color: #333;
+    color: #f0f0f0;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .translated-text-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app.dark .translated-text-container {
+    background-color: #333;
+    color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .translated-text-container h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .app.dark .translated-text-container h2 {
+    color: #f0f0f0;
+  }
+  
+  .translated-text-container p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .app.dark .translated-text-container p {
+    color: #f0f0f0;
+  }
+  
